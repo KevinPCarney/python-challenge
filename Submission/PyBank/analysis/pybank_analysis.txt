@@ -1,0 +1,5 @@
+For the PyBank exercise: There were 86 months in the data set.
+The total profit was $22,564,198.
+The average change was -$8,311.11 per month.
+The greatest increase was $1,862,002.
+The greatest loss was -$1,825,558.
