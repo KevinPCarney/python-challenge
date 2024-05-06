@@ -60,7 +60,7 @@ with open('analysis/pybank_analysis.txt', 'w') as file:
             total_profit = total_profit + profit # for each iteration of the loop the profit that was determined is added to the total profit (which was established as 0 in section 5A)
 
 
-    # Xpert Learning Assistant served as the baseline for the following code (lines 66, 69, and 73), though I edited it and determined how to do the If / Then statement
+    # Xpert Learning Assistant served as the baseline for the following code (lines 67, 70, and 74), though I edited it and determined how to do the If / Then statement
 
     # Step 6: Outside of the initial "for loop" this subsequent loop involves analysis of the profit_list as it's required to determine the highs, lows, and average change
 
@@ -88,7 +88,8 @@ with open('analysis/pybank_analysis.txt', 'w') as file:
         print(f"the greatest loss was $", (lowest_value))
         
 
-
+    # Print all the findings to a text document
+    
         file.write(f'For the PyBank exercise: There were 86 months in the data set.\n')
         file.write(f'The total profit was $22,564,198.\n')
         file.write(f'The average change was -$8,311.11 per month.\n')
